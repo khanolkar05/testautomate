@@ -1,0 +1,253 @@
+Atos Percipio 
+
+https://atos.percipio.com/channels/cc1c9d7b-af9a-42b7-a727-d9988fe3c941/view/7e3a397c-bcd6-488a-bb03-606a84580c78
+
+
+
+AZ 104
+
+https://azure.microsoft.com/en-in/support/plans/
+
+[19:06] Manogaran, Bhaskar
+    
+https://login.microsoftonline.com/common/oauth2/authorize?client_id=8e0e8db5-b713-4e91-98e6-470fed0aa4c2&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3dftzTeVmQvsMyDHi7vtmXEaxMExZyzEG8eJjmaWT04nH3qoLbwqMTUvN_0wklZmXied9cPeY6-ZkE5FXEnSJLsPyixnTvjFzMoxO8LZmDX603s6JFn2xHTY3OTXSSyHK2nT0ok9Ug86kkud_DATuEY9nt9m9KvMu1qPKQQdWwKT0hQJYQmNP8Wvu7uGh2fkUx_YaP4rgHMYX0ocO8K8yl-7lqEBw9j74z1g37wqark9mmAVV-uJKshNhW8F05iYntwNj3BVXRdTBYMDUJJcIdRUDby3kce8OSel3N3FPx-cO2Kv6IfV8-RK3BRj81CJgvyuj4u9orz_tjt4xwkwlWVaWMFxDzbYRIzQux6_YpXttviydBSpEhJIKsnd8xjpoo9DXcBnd0VrcTHk1BxRWNGGtYeE3R-JFTYxATUAjnX-ts-3JnVNbC9h-wXsfUF92QyINEejXZCDeorSvYO1wqFLlbSH3Hvx1lnlC3sR2CYE7jqrsKsjj47sklbFmGOJbe9UGwBxHwMn8Y7fc8O4JzOWJNh_NYy1reZ4Ovpx00xHQpfV1HIJyYbHKFoMuYP9-3w3fM7O4aBPDdroWKm0j3f3_akVTAEXTZ-S3I0Z7K42sv5ZnCnTy8lTwdY38gcR53&nonce=637489929664439139.MDAwM2NhYmEtNDE2My00ZjFhLWExMzQtODNjZGQwNTI3ODg2YzAxMDI0OTYtY2ZhMy00NTQ2LTg0MTYtZGU3ZTk4YTYxMDY4&redirect_uri=https%3a%2f%2fsignup.azure.com%2fapi%2fuser%2flogin&max_age=86400&post_logout_redirect_uri=https%3a%2f%2fsignup.azure.com%2fsignup%3foffer%3dms-azr-0044p%26appId%3d102%26ref%3dazureplat-generic%26redirectURL%3dhttps%3a%2f%2fazure.microsoft.com%2fen-in%2fget-started%2fwelcome-to-azure%2f%26l%3den-in%26correlationId%3d00C8AB2CCC6361901410A538C8636244
+
+https://docs.microsoft.com/en-us/azure/
+
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+
+DAY 3 
+
+https://docs.microsoft.com/en-us/azure/security/fundamentals/media/shared-responsibility/shared-responsibility.png
+
+Day 4 
+Storage
+https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview
+
+
+Disk  Prcicing - 
+https://azure.microsoft.com/en-in/pricing/details/managed-disks/
+
+Install on AX machine, 
+https://azure.microsoft.com/en-us/features/storage-explorer/
+
+
+
+Day - 5 
+
+#!/bin/bash
+yum install httpd -y
+echo "<HTML>
+<BODY>
+<p>hostname is: $(hostname)</p>
+<img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/apparel/Events/MidSeason/Hero-K-PC._CB496126811_.jpg">
+</BODY>
+</HTML>">/var/www/html/index.html
+service httpd start
+chkconfig httpd on
+
+https://freeclues.com/deals/amazon-electronics-mela-from-25th-to-26th-nov-2016
+
+#!/bin/bash
+yum install httpd -y
+echo "<HTML>
+<BODY>
+<p>hostname is: $(hostname)</p>
+<img src="https://www.abc.net.au/news/2013-11-05/india-mission-to-mars-makes-successful-launch/5071814">
+</BODY>
+</HTML>">/var/www/html/index.html
+service httpd start
+chkconfig httpd on
+
+
+
+
+
+Day 6 22nd feb 
+
+https://azure.microsoft.com/en-in/services/app-service/#features
+
+
+<html>
+<body>
+<img src= "https://www.irctchelp.in/wp-content/uploads/2018/05/IRCTC-Tour-Packeges.jpg">
+</body>
+</html>
+
+http://www.coreftp.com/download/coreftplite64.exe
+
+
+
+[20:24] Manogaran, Bhaskar
+    
+Install-Module -Name Az -AllowClobber -Scope CurrentUser
+​[20:24] Manogaran, Bhaskar
+    
+Install-Module -Name Az -AllowClobber -Scope CurrentUser
+
+
+    
+Connect-AzAccount
+
+    
+az login
+
+az group create -l EastUS -n MyResourceGroup
+
+
+
+--------------------------------------------------------------------------------
+
+Day 7 
+
+AZURE using CLI 
+
+https://aka.ms/installazurecliwindows
+
+   az login 
+az network vnet create -g MyResourceGroup -n MyVnet
+    
+az network vnet subnet create -n MySubnet --vnet-name MyVnet -g MyResourceGroup --address-prefixes "10.0.0.0/24"
+    
+az vm create -n MyVm -g MyResourceGroup --public-ip-address "" --image Win2019Datacenter
+
+
+user name - admin
+password - password we have to provide
+
+
+
+
+
+TASK-
+az vm delete -g TEST-RG -n test-vm11 --yes
+az network vnet subnet delete -g TEST-RG -n testsub
+
+az network vnet subnet delete --name testsub --resource-group TEST-RG --vnet-name test-vnet
+
+az group delete -n TEST-RG
+
+
+
+
+Day 8 - 
+
+
+Traffic manager 
+http://space-research.trafficmanager.net
+
+
+
+Day 9 
+
+https://www.microsoft.com/en-us/download/confirmation.aspx?id=47594
+
+
+
+
+
+Day10:
+
+yes > /dev/null &
+
+
+
+
+Day1
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EQfFSAqE-jRGmGXPIg7uRXoBrsyva_HsSCtnVrExRyf2Dw
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EWrMQm5Lm7tLrE5IHdBd1bUBcYxd2plgRVmaCvg6exPACg
+
+Day2:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EVoI-ayAbORCtzRfc68-6psBpyZMv4UhQYNKJM4bJ_kbWQ
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EWofhp27W3JBr1AFfJjyXCoBZolKXvjBr91jfwYMpXeM6Q
+
+Day3:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/Ee2Dpc_vNcZHt6sVb2hi5k4BAnqntGlCTouglDJeTQHx5Q
+https://atos365-my.sharepoint.com/:v:/g/personal/rahul_birhade_atos_net/ETxjH2ZBPjVFjd6yaBGVUL0BWuGcTdcCbq9NZsOPDadXig
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/ERIzZdxeb35JlvIcglhZFO0B2SKY3Cdq-BmkSd5Ox2NBUw
+
+Day4:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EUqtLx74a5JInzxAeKyj6O4BFLKA6BQkws5ht_5mDm9l7A
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EVK1xYoWRhNDqV9XanVOrC8BneXqWya6oQijNaJcvUU70A
+
+Day5:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EZIYSb_PwHZPsKu8Bxiciq0BvhRv2wzsS_M1Ro_LntsGSQ
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EaFB0VkTndJIr8Aa8b-3r5gBkgrFNA7dfQj-Lie9c5QWrQ
+
+Day6:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EQPBODlAXDJKkfsK4rf_heEBE82qw6pDF7SjEUT51PLYqQ
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/ER_80KcIETlClKejaYbuiWsBkOlbQoQQwooTItUfqtJgdA
+
+Day7:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/ESW3kNwu-mtJrdP29vq3-fEB4YCcCKi4NZDZ62UqiGGcfQ
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/ETWbutG5HKpPqmeaCnnZGEoBv11i9CTOCrvhe24a7ZJd5w
+
+Day8:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EbXIrQiB43FOr9PJ69tm__4B92hNde8s9mT4Kn_3FpKJDA
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EdNr2johS5JIpiy1LufH4ycBBWkNYZ3cS3957eVO3bI8CQ
+
+Day9:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EfOxDNuH0v1JnSA0zuFBo5YBlytwzQXJiOZqMPzqQ8VKPg
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/ES6MnFE5JbRJswFdQ7NCo4cBavA7wui4ohzHUMBn4sc4Sg
+
+Day10:
+https://atos365-my.sharepoint.com/:v:/g/personal/m_bhaskar_atos_net/EUzoI07PpThKnWwY_y8iW1EB3LPcTBuNyJxgTL7dwFFSHQ
+
+
+
+
+Atos@123456789
+Ajit matkar 
+
+4611 1991 4467 2188
+
+10/23 sbi visa
+
+394
+
+Pincode - 400708
+
+
+orcpdb03a:/ #sar 2 10
+
+AIX orcpdb03a 1 6 00C0D3C84C00    02/16/21
+
+System configuration: lcpu=36 ent=1.00 mode=Uncapped
+
+10:08:27    %usr    %sys    %wio   %idle   physc   %entc
+10:08:29      33      22       0      44    1.21   120.9
+10:08:31      31      22       0      47    1.19   119.3
+10:08:33      32      22       0      46    1.14   113.7
+10:08:35      33      22       0      45    1.15   114.7
+10:08:37      32      22       0      47    1.12   112.5
+10:08:39      32      23       0      45    1.15   114.6
+10:08:41      31      23       0      46    1.18   118.1
+10:08:43      32      23       0      46    1.13   112.9
+10:08:45      33      22       0      45    1.16   116.2
+10:08:47      31      22       0      47    1.14   114.4
+
+Average       32      22       0      46    1.16   116.4
+orcpdb03a:/ #sar 2 10
+
+AIX orcpdb03a 1 6 00C0D3C84C00    02/16/21
+
+System configuration: lcpu=40 ent=2.00 mode=Uncapped
+
+10:10:13    %usr    %sys    %wio   %idle   physc   %entc
+10:10:15      21      18       0      62    1.40    70.0
+10:10:17      22      16       0      62    1.36    67.8
+10:10:19      11       8       0      82    1.34    66.9
+10:10:21      21      15       0      64    1.27    63.6
+10:10:23      11       8       0      82    1.32    66.2
+10:10:25      13      10       0      77    1.26    62.9
+10:10:27      21      15       0      64    1.30    65.1
+10:10:29      11       8       0      80    1.41    70.3
+10:10:31      23      18       0      59    1.44    71.9
+10:10:33      11       8       0      81    1.35    67.3
+
+Average       15      11       0      74    1.35    67.7
+orcpdb03a:/ #
+
+
+
+
